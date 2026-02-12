@@ -70,9 +70,9 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-row gap-x-8 mx-5 mx-auto w-[80%] h-[83vh] ">
+    <div className="xl:flex flex-row gap-x-8 mx-5 my-6 mx-auto w-[80%] min-h-[83vh] lg:block ">
       <div
-        className="basis-128 rounded-lg w-[48%] shadow-xl h-70 mt-12 py-5 bg-[#FFFFFF]"
+        className="basis-128 rounded-lg xl:w-[48%] w-[100%]shadow-xl h-80 mt-12 py-5 bg-[#FFFFFF]"
         onDragOver={handleDragOver}
         onDrop={handleDrop}
       >
@@ -95,7 +95,7 @@ const App = () => {
         </button>
         {error && <div className="text-center mb-4">{error}</div>}
       </div>
-      <div className="basis-128 rounded-xl shadow-xl w-[48%] h-120 mt-12 py-5 px-4 bg-[#FFFFFF]">
+      <div className="basis-128 rounded-xl shadow-xl xl:w-[48%] w-[100%] min-h-120 mt-12 py-5 px-4 bg-[#FFFFFF]">
         {!originalImage && (
           <div className="">
             <h2 className="text-[#3C4043] font-bold text-xl font-montserrat mt-2 ml-5 mb-3">
