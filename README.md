@@ -5,6 +5,7 @@ Users can upload images and automatically remove backgrounds in seconds.
 
 ## 🚀 Live Demo
 
+https://bg-removal-web.netlify.app/
 
 ## ✨ Features
 
